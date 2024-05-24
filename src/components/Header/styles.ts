@@ -24,22 +24,20 @@ export const Header = styled.header`
     display: flex;
     align-items: center;
 
+    span {
+      color: ${cores.corFundo};
+    }
     img {
       width: 18px;
       margin-right: 8px;
       margin-left: 16px;
     }
-
-    span {
-      color: ${cores.corFundo};
-    }
   }
 
   @media (max-width: 768px) {
-    flex-direction: column;
-
     div {
       margin-top: 16px;
     }
+    flex-direction: column;
   }
 `
